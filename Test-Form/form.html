@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Nerko+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="form.js"></script>
+
+</head>
+<body>
+    <main>
+        <div>
+            <p>Informe seu Nome</p>
+            <i class='bx bx-envelope' ></i>
+            <input type="text" required id="email" placeholder="Digite seu Email..."
+            maxlength="100">
+
+            <!-- Divisão de tag -->
+            
+            <p>Informe seu Email</p>
+            <i class='bx bx-user-check' ></i>
+            <input type="text" id="name" placeholder="Digite seu nome..."
+            maxlength="100" required>
+
+            <button id="addButton" type="button" onclick="addValor()">Enviar</button>
+            
+        </div>
+    </main>
+</body>
+</html>
